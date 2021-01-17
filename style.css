@@ -1,0 +1,99 @@
+body{
+    background: url(../img/bg4.jpg);
+    background-size: cover;
+	font-size: 14px;
+    font: 15px Viga;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    border-width: 450px;
+}
+
+h1{
+    display: flex;
+    padding: 7px 7px;
+    height: 40px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+fieldset{
+    opacity: 0.8;
+    width: 320px;
+	border: none;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    background-color: #acacac;
+}
+
+table{
+    margin-left: 25px;
+}
+
+legend{
+    font-weight: bolder;
+    color: black;
+    text-shadow: 2px 3px 1px #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+input[type=text], input[type=file], select, input[type=number], input[type=date], textarea{
+	border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 85%;
+    font-family: inherit;
+    background-color: #d05613;
+    color: white;
+}
+
+select{
+	width: inherit;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    width: 15px; height: 15px;
+    border:3px solid #999;
+    border-radius: 50%;
+    background-color: #ebebeb;
+    outline: 0;
+}
+
+input[type="radio"]:checked {
+    background-color: #1a1a1a;
+}
+
+input[type=submit], button[type=reset] {
+  background: #09827e;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 5px 15px 5px 15px;
+  float: right;
+}
+
+input[type=submit]:hover, button[type=reset]:hover {
+  background: #ffc711;
+}
+
+footer{
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+@media(min-width:480px){
+    .wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    fieldset{
+        width:450px;
+    }
+}

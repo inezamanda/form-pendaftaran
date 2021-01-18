@@ -8,17 +8,17 @@
         <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
         <!-- Main style-->
         <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
         <title>Form</title>
     </head>
 
     <body>
         <h1>Formulir Pendaftaran</h1>
         <div class="wrapper">
-            <form action="/action-page.php">
+            <form action="" method="GET">
                 <fieldset>
                     <legend>KETERANGAN PRIBADI</legend>
-                    <table>
+                    <table class="tabel-form">
                         <tr>
                             <td>
                                 <label for="img">Pilih file</label>
@@ -163,7 +163,7 @@
                 </fieldset>
                 <fieldset>
                     <legend>KETERANGAN TEMPAT TINGGAL</legend>
-                    <table>
+                    <table class="tabel-form">
                         <!-- Alamat -->
                         <tr>
                             <td><label class="label-input" for="alamat">Alamat Lengkap</label></td>
@@ -219,6 +219,30 @@
             </form>
         </div>
         <footer>
+            <div class="wrapper-contact">
+                <ul>
+                    <li>
+                        <a href="#" class="btn btn-social btn-facebook btn-simple">
+                            <i class="fa fa-facebook-square"></i> Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn btn-social btn-dribbble btn-simple">
+                            <i class="fa fa-dribbble"></i> Dribbble
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn btn-social btn-twitter btn-simple">
+                            <i class="fa fa-twitter"></i> Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn btn-social btn-reddit btn-simple">
+                            <i class="fa fa-google-plus-square"></i> Google+
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <p>Copyright &copy; by Inez Yulia Amanda 2021</p>
         </footer>
     </body>

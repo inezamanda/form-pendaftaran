@@ -58,7 +58,14 @@
                             <td><label class="label-input" for="birthplace">Tempat Lahir</label></td>
                             <td>:</td>
                             <td>
-                                <select name="birthplace" id="birthplace">
+                                <select name="birthplace" id="province">
+                                    <option value="">-- Provinsi --</option>
+                                    <option value="A">A</option>
+                                    <option value="B">B</option>
+                                    <option value="C">C</option>
+                                    <option value="D">D</option>
+                                  </select>
+                                  <select name="birthplace" id="city">
                                     <option value="">-- Kota/Kab --</option>
                                     <option value="Aceh">Aceh</option>
                                     <option value="Medan">Medan</option>
@@ -144,12 +151,12 @@
                             <td><label class="label-input" for="sim">Jenis SIM</label></td>
                             <td>:</td>
                             <td>
-                              <select name="sim" id="sim">
-                                <option value="">-- SIM --</option>
-                                <option value="A">A</option>
-                                <option value="B">B</option>
-                                <option value="C">C</option>
-                              </select>
+                                <input type="checkbox" id="sim" name="sima" value="SIM A">
+                                <label for="sima">SIM A</label>
+                                <input type="checkbox" id="sim" name="simb" value="SIM B">
+                                <label for="simb">SIM B</label>
+                                <input type="checkbox" id="sim" name="simc" value="SIM C">
+                                <label for="simc">SIM C</label>
                             </td>
                         </tr>
                       </table>
